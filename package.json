@@ -7,5 +7,8 @@
     "build": "rm -R -f ./out; cp -R ./src/. ./out; find ./out -name \"*.ts\" -delete; tsc;"
   },
   "author": "Michael1",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.8.3"
+  }
 }
