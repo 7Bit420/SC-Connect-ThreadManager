@@ -1,0 +1,11 @@
+{
+  "name": "threadmanager",
+  "version": "1.0.0",
+  "description": "The Threadmanger for SC-Conect",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -R -f ./out; cp -R ./src/. ./out; find ./out -name \"*.ts\" -delete; tsc;"
+  },
+  "author": "Michael1",
+  "license": "MIT"
+}
