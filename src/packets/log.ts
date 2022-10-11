@@ -8,7 +8,7 @@ class logPacket implements packet {
     static type = 10;
 
     phrase(id: number, payload: Buffer, socket?: net.Socket) {
-        
+        console.log(payload.subarray(1, 1 + MathPlus.mergeInt(payload.subarray(0, 1))).toString('ascii'))
     }
 
 }

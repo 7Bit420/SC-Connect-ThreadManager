@@ -3,9 +3,9 @@ import { logPacket } from "./log"
 import { authPacket } from "./auth"
 
 const packets = {
-    "auth": new authPacket(),
-    "descovery": new descoveryPacket(),
-    "log": new logPacket()
+    0: new authPacket(),
+    3: new descoveryPacket(),
+    10: new logPacket()
 }
 const packetTypes = {
     auth: 0,

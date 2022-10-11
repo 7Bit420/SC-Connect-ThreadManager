@@ -11,5 +11,6 @@ const clientInfo: Map<string, {
 }> = new Map()
 
 net.createServer(serverListner)
+    .listen(2000)
 
 export { clientMap, clientInfo }
