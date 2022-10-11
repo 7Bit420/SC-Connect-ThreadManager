@@ -31,10 +31,10 @@ export { serverListner }
 
 STANDARD: [ TYPE, ID, ID, ID, ID, LEN, LEN, LEN, LEN, ...PAYLOAD ]
 PAYLOADS: 
-    AUTH            : [ NAMELEN, ...NAME ]
-    AUTH-RES        : [ SUCESS ]
-    LIST-CLIENTS    : [  ]
-    LIST-CLIENTS-RES: [ CLIENTLEN, ...[ CLIENTNAMELEN, ..CLIENTNAME ] ]
+    AUTH            : [ NAMELEN, ...NAME ] ✅
+    AUTH-RES        : [ SUCESS ] ✅
+    LIST-CLIENTS    : [  ] ✅
+    LIST-CLIENTS-RES: [ CLIENTLEN, ...[ CLIENTNAMELEN, ..CLIENTNAME, CLIENTADDRID, ...CLIENTADDR ] ] ✅
     LOG             : [ MESAGELEN, MESAGELEN, ...MESSAGE ]
 
 
